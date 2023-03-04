@@ -1,0 +1,99 @@
+body {
+    background-color: #fefefe;
+}
+.navbar {
+  background-color: #bca474;
+}
+.carousel-container {
+  margin-top: 20px;
+  padding: 40px 40px 40px 40px;
+  width: 1280px;
+  height: 880px;
+  position: relative;
+  background-color: #fefefe;
+  text-align: center;
+  border-radius: 15px;
+}
+.carousel-indicators {
+  position: absolute;
+  bottom: -50px;
+}
+#showOnLoad {
+  display: none;
+}
+
+.image {
+  /* margin-top: 30px; */
+  height: 630px;
+  width: 1200px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.carousel-content {
+  height: 180px;
+  position: relative;
+}
+.line {
+  background-color: #bca474;
+  height: 10px;
+  margin-top: 10px;
+}
+.title {
+  font-weight: bold;
+}
+
+.author-date {
+  position: relative;
+}
+
+.date {
+  position: absolute;
+  right: 0;
+}
+
+.content {
+  height: 85px;
+  text-align: start;
+  font-size: 16px;
+  font-weight: 500;
+}
+.readmore {
+  position: absolute;
+  bottom: 5px;
+  left: 46%;
+  color: #bca474;
+  text-shadow: 0.5px 1px #5f5555;
+  font-weight: 500;
+}
+
+.circle {
+  margin-top: 50px;
+  background-color: #bca474;
+  width: 130px;
+  height: 130px;
+  overflow: visible;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+}
+.head {
+  background-image: linear-gradient(to right, #fefefe 0 33%, #bca474 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  position: absolute;
+  bottom: 30%;
+  left: 30px;
+  width: 300px;
+}
+
+.before-carousel {
+  text-align: center;
+}
+.cat {
+  list-style-type: none;
+}
+.des {
+  font-weight: 500;
+}
